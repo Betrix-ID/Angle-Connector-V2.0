@@ -1,0 +1,20 @@
+# not allowed to design without official permission from the script creator 
+
+[package]
+name = "Angle_use"
+version = "2.0.2"
+edition = "2021"  
+
+description = "A lightweight utility script to improve graphics performance using ANGLE."
+authors = ["@UnixeID <betrix322@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/Betrix-ID"
+repository = ""  # Tambahkan URL repositori jika ada
+documentation = ""  # Tambahkan URL dokumentasi jika ada
+
+[package.metadata]
+telegram_channel = "https://t.me/Yeye_PID"
+
+[profile.release]
+opt-level = 3
+strip = "symbols"
